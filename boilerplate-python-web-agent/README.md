@@ -48,17 +48,19 @@ Passo a passo do zero ate ver a aplicacao rodando.
 Com Node instalado, use o `degit` para baixar so esta pasta (sem o historico do git):
 
 ```bash
-npx degit fabricioveronez/boilerplates/boilerplate-python-web-agent meu-agente
+npx degit crilsen/ai-boilerplates-agent/boilerplate-python-web-agent meu-agente
 cd meu-agente
 ```
 
 Sem Node, clone o repositorio e copie a pasta:
 
 ```bash
-git clone https://github.com/fabricioveronez/boilerplates.git
-cp -r boilerplates/boilerplate-python-web-agent ~/projetos/meu-agente
+git clone https://github.com/crilsen/ai-boilerplates-agent.git
+cp -r ai-boilerplates-agent/boilerplate-python-web-agent ~/projetos/meu-agente
 cd ~/projetos/meu-agente
 ```
+
+> Fork de [fabricioveronez/boilerplates](https://github.com/fabricioveronez/boilerplates), com os devidos creditos ao autor original.
 
 ### 2. Inicialize o projeto
 

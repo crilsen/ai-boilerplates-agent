@@ -21,15 +21,15 @@ Cada boilerplate fica em sua propria pasta, e autocontido e traz tudo que um age
 Escolha o boilerplate desejado e baixe **apenas a pasta dele**, sem o historico do git, com o [degit](https://github.com/Rich-Harris/degit):
 
 ```bash
-npx degit fabricioveronez/boilerplates/boilerplate-python-web-agent meu-agente
+npx degit crilsen/ai-boilerplates-agent/boilerplate-python-web-agent meu-agente
 cd meu-agente
 ```
 
 Sem Node instalado, clone o repositorio e copie a pasta:
 
 ```bash
-git clone https://github.com/fabricioveronez/boilerplates.git
-cp -r boilerplates/boilerplate-python-web-agent ~/projetos/meu-agente
+git clone https://github.com/crilsen/ai-boilerplates-agent.git
+cp -r ai-boilerplates-agent/boilerplate-python-web-agent ~/projetos/meu-agente
 cd ~/projetos/meu-agente
 ```
 
@@ -49,3 +49,7 @@ make dev                    # abra http://localhost:8000
    - `AGENTS.md` com as instrucoes para os agentes e `CLAUDE.md` importando o `AGENTS.md`;
    - `.env.example` sem segredos (nunca versione o `.env`).
 4. Adicione uma linha na tabela do [Catalogo](#catalogo).
+
+## Creditos
+
+Este repositorio e um fork de [fabricioveronez/boilerplates](https://github.com/fabricioveronez/boilerplates). Os boilerplates originais sao de autoria de [@fabricioveronez](https://github.com/fabricioveronez); este fork mantem os creditos e evolui a estrutura.
